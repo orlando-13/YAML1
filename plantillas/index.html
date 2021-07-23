@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Orlando</title>
+    <link href="{{ url_for('mirecurso', path='/bootstrap.min.css') }}" rel="stylesheet">
+    <script src="{{ url_for('mirecurso', path='/bootstrap.bundle.min.js') }}"></script>
+</head>
+<body>
+    <br>
+    <a href="/lista"><button class="btn btn-secondary">Ver lista</button></a>
+    <h1>Bienvenidos</h1>
+    <h4><p>Este sitio le pertenece al Equipo2 y mostrará los datos de los integrantes</p></h4>
+    <br>
+            {% for fila in lista %}
+                <a href="/ver_sitiopersonal/{{lista.index(fila)}}"><button class="btn btn-success">{{iterrador}} {{fila.get('nombre')}}</button></a>
+                <br>
+            {% endfor %}
+    </body>
+    </html>
+

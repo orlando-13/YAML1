@@ -1,0 +1,28 @@
+alumnos:
+- item_id: 1
+  matricula: 11
+  nombre: Manuel Orlando
+  apaterno: Ruiz
+  amaterno: Cruz
+  edad: 21
+  correo: orli1@gmail.com
+  telefono: 9198823344
+  carrera: RIrC
+- item_id: 2
+  matricula: 22
+  nombre: Orli2
+  apaterno: Ms
+  amaterno: Ds
+  edad: 21
+  correo: orli2@gmail.com
+  telefono: 9191778811
+  carrera: RIyC
+- item_id: 3
+  matricula: 33
+  nombre: Orli3
+  apaterno: Ms
+  amaterno: Ds
+  edad: 22
+  correo: orli3@gmail.com
+  telefono: 99999
+  carrera: DSM
